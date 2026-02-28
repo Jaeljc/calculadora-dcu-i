@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace CalculadoraC_
 {
-    double valor1 = 0;
-    double valor2 = 0;
-    string operacion = "";
-    bool hayOperacion = false;
-
     public partial class Form1 : Form
     {
+        double valor1 = 0;
+        double valor2 = 0;
+        string operacion = "";
+        bool hayOperacion = false;
+
         public Form1()
         {
             InitializeComponent();
@@ -38,9 +38,41 @@ namespace CalculadoraC_
             txtPantalla.Text += boton.Text;
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void Operador_Click(object sender, EventArgs e)
         {
+            Button boton = (Button)sender;
 
+            // Guardamos el primer número y la operación seleccionada
+            valor1 = double.Parse(txtPantalla.Text);
+            operacion = boton.Text;
+            hayOperacion = true;
+        }
+
+        private void btnIgual_Click(object sender, EventArgs e)
+        {
+            double valor2 = double.Parse(txtPantalla.Text);
+            double resultado = 0;
+
+            switch (operacion)
+            {
+                case "+": resultado = valor1 + valor2; break;
+                case "-": resultado = valor1 - valor2; break;
+                case "x": resultado = valor1 * valor2; break;
+                case "/":
+                    // Heurística: Prevención de errores (Nielsen)
+                    if (valor2 != 0)
+                    {
+                        resultado = valor1 / valor2;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error: No se puede dividir por cero");
+                        return;
+                    }
+                    break;
+            }
+            txtPantalla.Text = resultado.ToString();
+            hayOperacion = true;
         }
     }
 }
