@@ -1,0 +1,10 @@
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\bin\Debug\CalculadoraC#.exe.config
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\bin\Debug\CalculadoraC#.exe
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\bin\Debug\CalculadoraC#.pdb
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\obj\Debug\CalculadoraC#.csproj.AssemblyReference.cache
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\obj\Debug\CalculadoraC_.Form1.resources
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\obj\Debug\CalculadoraC_.Properties.Resources.resources
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\obj\Debug\CalculadoraC#.csproj.GenerateResource.cache
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\obj\Debug\CalculadoraC#.csproj.CoreCompileInputs.cache
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\obj\Debug\CalculadoraC#.exe
+C:\Users\JaelJ\source\repos\calculadora-dcu-i\CalculadoraC#\CalculadoraC#\obj\Debug\CalculadoraC#.pdb

@@ -74,5 +74,18 @@ namespace CalculadoraC_
             txtPantalla.Text = resultado.ToString();
             hayOperacion = true;
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            txtPantalla.Text = "0";
+            valor1 = 0;
+            operacion = "";
+            hayOperacion = false;
+        }
+
+        private void txtPantalla_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
