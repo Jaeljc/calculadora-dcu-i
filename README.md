@@ -15,7 +15,7 @@ Paleta de Colores: Aplique una estética moderna con fondo Gris Ratón, botones 
 Optimización Visual: Sustiti el TextBox estándar por un panel superior morado con texto en blanco de gran tamaño, mejorando la Visibilidad del Estado del Sistema (Heurística 1).
 
 3. Reporte de Usabilidad
-Documento REPORTE - Tarea Calculadora.pdf ya cuenta con todas las secciones requeridas: 
+Documento REPORTE - Tarea Calculadora.pdf ya cuenta con todas las secciones requeridas: /Docs
 
 Identificación del Problema: Documente la falta de contraste en el Botón C (No. JC-HE-01) como una falla en la Heurística 6: Reconocimiento antes que recuerdo. 
 
